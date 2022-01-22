@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.search-form div {
+  padding: 10px
+}
+
+div, table {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.header {
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 20px 20px;
+  background-color: #092F82;
+  color: white;
+}
+
+h1 {
+  margin: auto;
+}
+
+.search-form {
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 40px;
+  width: 890px;
+  table-layout: fixed;
+}
+
+table tr th {
+  color: #092F82;
+  border-bottom: 1px solid #092F82;
+}
+
+table tr {
+  background-color: #fff;
+  padding: .35em;
+  border-bottom: 1px dotted #092F82;
+}
+
+table th,
+table td {
+  padding: 1em 10px 1em 1em;
+}
+
+
+table tr:last-child {
+  border-bottom: 2px solid #092F82;
+}
+
+.lecture-name {
+  width: 50%;
+  min-width: 400px
+}
+
+.search-form {
+  padding: 50px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: #F0F0F2;
+}
+
+.search-form label {
+  padding: 10px;
+
+}
