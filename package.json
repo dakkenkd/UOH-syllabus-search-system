@@ -1,6 +1,7 @@
 {
   "name": "uoh_syllabus",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@mui/material": "^5.2.8",
