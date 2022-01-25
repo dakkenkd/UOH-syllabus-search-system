@@ -9,7 +9,7 @@ export const SyllabusSearch = () => {
   const [searchText, setSearchText] = useState("");
   const textRef = useRef(null)
   // チェックボックス
-  const initialVal = { common: false, sis: false, em: false, emgbc: false, eng:false, sci:false, shse:false, cnas:false, minor:false, 1:false, 2:false, 3:false, 4:false, first:false, second:false};
+  const initialVal = { common: false, sis: false, em: false, emgbc: false, eng:false, sci:false, shse:false, cnas:false, minor:false, cons:false, 1:false, 2:false, 3:false, 4:false, first:false, second:false};
   const [val, setVal] = useState(initialVal);
 
   // JSONデータ
@@ -117,6 +117,15 @@ export const SyllabusSearch = () => {
               checked={val['minor']}
             />
           副専攻
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              value="cons"
+              onChange={handleChange}
+              checked={val['cons']}
+            />
+          集中講義
           </label>
         </div>
         <div className="year">
